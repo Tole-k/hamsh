@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rcFile="~/.bashrc"
+rcFile="$HOME/.bashrc"
 
 if grep -q "source $PWD/ham.sh" $rcFile; then
     echo "ham.sh is already installed"
